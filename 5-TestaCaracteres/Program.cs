@@ -4,15 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1_PrimeiroProjeto
+namespace _5_TestaCaracteres
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("começou...");
+            char letra = 'a';
 
-            Console.WriteLine("estou aguardando...");
+            Console.WriteLine(letra);
+            Console.ReadLine();
+
+
+            char valor = (char)65;
+            Console.WriteLine(valor);
             Console.ReadLine();
         }
     }

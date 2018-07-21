@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1_PrimeiroProjeto
+namespace _3_TestaPontoFlutuante
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("começou...");
+            double salario = 5.0 / 2;
 
-            Console.WriteLine("estou aguardando...");
+            Console.WriteLine(salario);
             Console.ReadLine();
         }
     }

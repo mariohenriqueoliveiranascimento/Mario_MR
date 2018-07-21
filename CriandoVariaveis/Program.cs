@@ -4,16 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1_PrimeiroProjeto
+namespace CriandoVariaveis
 {
     class Program
     {
+
+        
+
         static void Main(string[] args)
         {
-            Console.WriteLine("começou...");
+            Console.WriteLine("Ola novo teste");
 
-            Console.WriteLine("estou aguardando...");
+            int idade = 37;
+
+            Console.WriteLine("E a idade é " + idade + ", parabéns.");
             Console.ReadLine();
+
+
+            
         }
     }
 }
